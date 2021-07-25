@@ -5,18 +5,18 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Recurring.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Recurring\Tests\Unit\Concerns;
+namespace Konceiver\Recurring\Tests\Unit\Concerns;
 
-use KodeKeep\Recurring\Tests\TestCase;
+use Konceiver\Recurring\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Recurring\Concerns\Recurring
+ * @covers \Konceiver\Recurring\Concerns\Recurring
  */
 class RecurringTest extends TestCase
 {
@@ -27,7 +27,7 @@ class RecurringTest extends TestCase
 
         $builder = $recurring->recurr();
 
-        $this->assertTrue($builder instanceof \KodeKeep\Recurring\Builder);
+        $this->assertTrue($builder instanceof \Konceiver\Recurring\Builder);
     }
 
     /** @test */
@@ -37,13 +37,13 @@ class RecurringTest extends TestCase
 
         $builder = $recurring->recurr();
 
-        $this->assertTrue($builder instanceof \KodeKeep\Recurring\Builder);
+        $this->assertTrue($builder instanceof \Konceiver\Recurring\Builder);
     }
 }
 
 class RecurringExample
 {
-    use \KodeKeep\Recurring\Concerns\Recurring;
+    use \Konceiver\Recurring\Concerns\Recurring;
 
     private $start_at = '';
 
@@ -60,7 +60,7 @@ class RecurringExample
 
 class RecurringModelExample extends \Illuminate\Database\Eloquent\Model
 {
-    use \KodeKeep\Recurring\Concerns\Recurring;
+    use \Konceiver\Recurring\Concerns\Recurring;
 
     private $start_at = '';
 

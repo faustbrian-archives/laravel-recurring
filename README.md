@@ -1,18 +1,18 @@
 # Laravel Recurring
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-recurring)](https://packagist.org/packages/kodekeep/laravel-recurring)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-recurring)](https://packagist.org/packages/kodekeep/laravel-recurring)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-recurring/run-tests?label=tests)](https://github.com/kodekeep/laravel-recurring/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-recurring)](https://codeclimate.com/github/kodekeep/laravel-recurring)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-recurring)](https://codeclimate.com/github/kodekeep/laravel-recurring)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-recurring)](https://packagist.org/packages/kodekeep/laravel-recurring)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-recurring)](https://packagist.org/packages/konceiver/laravel-recurring)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-recurring)](https://packagist.org/packages/konceiver/laravel-recurring)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-recurring/run-tests?label=tests)](https://github.com/konceiver/laravel-recurring/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-recurring)](https://codeclimate.com/github/konceiver/laravel-recurring)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-recurring)](https://codeclimate.com/github/konceiver/laravel-recurring)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-recurring)](https://packagist.org/packages/konceiver/laravel-recurring)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides Recurrence Rules for Laravel.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-recurring
+composer require konceiver/laravel-recurring
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ composer require kodekeep/laravel-recurring
 ``` php
 namespace App;
 
-use KodeKeep\Recurring\Recurring;
+use Konceiver\Recurring\Recurring;
 use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
@@ -63,7 +63,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 

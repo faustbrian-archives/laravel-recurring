@@ -5,19 +5,19 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Recurring.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Recurring\Tests\Unit;
+namespace Konceiver\Recurring\Tests\Unit;
 
 use Carbon\Carbon;
-use KodeKeep\Recurring\Tests\TestCase;
+use Konceiver\Recurring\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Recurring\Builder
+ * @covers \Konceiver\Recurring\Builder
  */
 class BuilderTest extends TestCase
 {
@@ -44,7 +44,7 @@ class BuilderTest extends TestCase
 
 class RecurringClass
 {
-    use \KodeKeep\Recurring\Concerns\Recurring;
+    use \Konceiver\Recurring\Concerns\Recurring;
 
     private string $start_at;
 
